@@ -8,3 +8,19 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+.background {
+    height: 100%;
+    width: 100%;
+}
+
+#bgVideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    right: 0;  
+    filter: brightness(1.2);
+    z-index: -10;
+}

@@ -4,7 +4,9 @@ const page = () => {
   return (
     <>
         <div className="background">
-          <h1>Bara language institute</h1>  
+            <video id="bgVideo" autoPlay loop muted>
+                <source src="/bgVideo.mp4"/>
+            </video>
         </div>
     </>
   )
