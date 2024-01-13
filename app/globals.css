@@ -64,8 +64,19 @@ html, body {
 }
 
 .content-para {
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
     padding: 0.4rem;
     margin: 0.2rem;
 }
+
+.btn-main {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: linear-gradient(rgba(250, 0, 0, 0.5), rgba(107, 39, 0, 0.5));
+    color: white;
+    font-size: 1rem;
+    border: 3px solid white;
+    border-radius: 22px;
+}
+
