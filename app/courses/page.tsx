@@ -5,7 +5,7 @@ const page = () => {
     return (
             <>
                 <div className="courses-main">
-                <Navbar />
+                    <Navbar />
                     <h2>Courses</h2>
                 </div>
             </>
