@@ -14,10 +14,12 @@ const Welcome = () => {
         </div>
         <div className="welcome-pic">
             <Image 
+            className="welcome-picture"
             height={350}
             width={350}
             src={"/anime-study-4.png"}
             alt="welcome image"
+            priority
             />
 
         </div>
