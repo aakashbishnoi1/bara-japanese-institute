@@ -149,6 +149,9 @@ html, body {
     .welcome-picture {
         width: 300px;
     }
+    .main-heading {
+        font-size: 1.6rem;
+    }
 }
 
 
@@ -158,6 +161,17 @@ html, body {
     }
     .content-para {
         font-size: 1.2rem;
+    }
+}
+@media (max-width: 800px) {
+    .welcome-picture {
+        width: 220px;
+    }
+    .content-para {
+        font-size: 1.1rem;
+    }
+    .main-heading {
+        font-size: 1.4rem;
     }
 }
 
